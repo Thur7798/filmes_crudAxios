@@ -1,0 +1,30 @@
+/* Container principal */
+.read-container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f5f7fa;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Título */
+.read-title {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Bloco de detalhe */
+.read-detail {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Texto forte */
+.read-detail strong {
+  color: #222;
+}

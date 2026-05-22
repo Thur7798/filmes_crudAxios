@@ -1,0 +1,83 @@
+/* Container principal */
+.create-container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f5f7fa;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Título */
+.create-title {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Formulário */
+.create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Grupo de campo */
+.create-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+/* Labels */
+.create-label {
+  font-weight: 500;
+  color: #444;
+  font-size: 0.9rem;
+}
+
+/* Inputs */
+.create-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+.create-input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+/* Botão */
+.create-button {
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.create-button:hover {
+  background: #357ab8;
+}
+
+/* Link Voltar */
+.create-link {
+  text-decoration: none;
+  color: #4a90e2;
+  font-weight: 500;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.create-link:hover {
+  color: #2c5f91;
+}
