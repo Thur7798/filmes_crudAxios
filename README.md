@@ -1,16 +1,104 @@
-# React + Vite
+# 🎬 Filmes CRUD Axios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web para gerenciamento de filmes (CRUD completo) construída com React e Vite. O projeto utiliza Axios para realizar operações de criação, leitura, atualização e exclusão de filmes através de uma API REST.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React** - Biblioteca JavaScript para construção de interfaces
+- **Vite** - Build tool moderna e rápida
+- **Axios** - Cliente HTTP para requisições à API
+- **JavaScript** - 64.7% do código
+- **CSS** - 33.3% do código (estilização)
+- **HTML** - 2.0% do código
 
-## React Compiler
+## ✨ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✅ **Criar** - Adicionar novos filmes ao catálogo
+- 📖 **Ler** - Listar e visualizar detalhes dos filmes
+- ✏️ **Atualizar** - Editar informações dos filmes existentes
+- 🗑️ **Deletar** - Remover filmes do catálogo
 
-## Expanding the ESLint configuration
+## 📦 Instalação
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Pré-requisitos
+
+- Node.js (versão 16 ou superior)
+- npm ou yarn
+
+### Passos para instalação
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/Thur7798/filmes_crudAxios.git
+```
+
+2. Acesse o diretório do projeto:
+```bash
+cd filmes_crudAxios
+```
+
+3. Instale as dependências:
+```bash
+npm install
+```
+
+## 🎮 Como Usar
+
+### Modo de Desenvolvimento
+
+Para iniciar o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+A aplicação estará disponível em `http://localhost:5173`
+
+### Build de Produção
+
+Para criar uma versão otimizada para produção:
+
+```bash
+npm run build
+```
+
+### Preview da Build
+
+Para visualizar a versão de produção localmente:
+
+```bash
+npm run preview
+```
+
+## 📁 Estrutura do Projeto
+
+```
+filmes_crudAxios/
+├── public/           # Arquivos públicos estáticos
+├── src/              # Código fonte da aplicação
+│   ├── components/   # Componentes React
+│   ├── services/     # Configuração do Axios e APIs
+│   ├── App.jsx       # Componente principal
+│   └── main.jsx      # Ponto de entrada da aplicação
+├── index.html        # HTML principal
+├── package.json      # Dependências e scripts
+├── vite.config.js    # Configuração do Vite
+└── eslint.config.js  # Configuração do ESLint
+```
+
+## 🔧 Configuração do ESLint
+
+O projeto utiliza ESLint com regras configuradas para manter a qualidade do código. As configurações podem ser encontradas em `eslint.config.js`.
+
+## 🌐 Deploy
+
+A aplicação está hospedada na Vercel: **[https://filmes-crud-axios.vercel.app](https://filmes-crud-axios.vercel.app)**
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT.
+
+## 👤 Autor
+
+**Thur7798**
+- GitHub: [@Thur7798](https://github.com/Thur7798)
